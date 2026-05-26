@@ -1,0 +1,150 @@
+/* =====================================
+BACKGROUND
+===================================== */
+
+.stApp {
+
+    background: linear-gradient(
+        to right,
+        #dbeafe,
+        #9ca3af
+    );
+}
+
+/* =====================================
+HEADER
+===================================== */
+
+.main-header {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.main-header h1 {
+
+    color: #1e3a8a;
+
+    font-size: 42px;
+}
+
+.main-header p {
+
+    color: #374151;
+
+    font-size: 18px;
+}
+
+/* =====================================
+SIDEBAR
+===================================== */
+
+.sidebar-title {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    color: black;
+
+    padding: 10px;
+}
+
+/* =====================================
+CARDS
+===================================== */
+
+.card {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+/* =====================================
+PREDICTION BOX
+===================================== */
+
+.prediction-box {
+
+    background: linear-gradient(
+        to right,
+        #0ea5e9,
+        #6b7280
+    );
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    color: white;
+
+    margin-top: 20px;
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.prediction-box h1 {
+
+    font-size: 50px;
+}
+
+.prediction-box h2 {
+
+    margin-bottom: 15px;
+}
+
+/* =====================================
+BUTTON
+===================================== */
+
+.stButton > button {
+
+    width: 100%;
+
+    background: linear-gradient(
+        to right,
+        #0284c7,
+        #6b7280
+    );
+
+    color: white;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    padding: 12px;
+}
+
+.stButton > button:hover {
+
+    background: linear-gradient(
+        to right,
+        #0369a1,
+        #4b5563
+    );
+
+    color: white;
+}
